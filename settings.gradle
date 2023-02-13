@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Android lessons Govorov"
+include ':app'
+include ':p0041basicviews'
+include ':ViewByld'
+include ':ViewById'
+include ':P0081viewbyId'
+include ':P008viewbyId'
+include ':p0051layoutfiles'
+include ':p0061_layouts'
